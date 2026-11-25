@@ -1,0 +1,10 @@
+# SPDX-FileCopyrightText: 2026 Paolo Ungari and the Eiraman contributors
+# SPDX-License-Identifier: CC-BY-SA-4.0
+version = 1
+
+# Texts added later default to CC-BY-SA-4.0 unless a file states otherwise.
+[[annotations]]
+path = ["**/*.md", ".gitignore", ".lycheeignore"]
+precedence = "closest"
+SPDX-FileCopyrightText = "2026 Paolo Ungari and the Eiraman contributors"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
