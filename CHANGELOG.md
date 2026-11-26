@@ -34,6 +34,6 @@ Written against: Eiraman Guide 1.0.0-rc.1 (published as "1.0-rc").
   Guide, Extended Framework, Tools and Cases.
 - Licence CC BY-SA 4.0 for texts derived from the Guide; CI compliance checks and Markdown link check.
 
-[Unreleased]: https://github.com/eiraman/framework/compare/c2eb43c3aeba5fcf9fc1009a8c741a8e8a90c67f...main
-[0.1.1]: https://github.com/eiraman/framework/compare/c2eb43c3aeba5fcf9fc1009a8c741a8e8a90c67f...main
-[0.1.0]: https://github.com/eiraman/framework/tree/c2eb43c3aeba5fcf9fc1009a8c741a8e8a90c67f
+[Unreleased]: https://github.com/eiraman/framework/compare/v0.1.1...main
+[0.1.1]: https://github.com/eiraman/framework/compare/v0.1.0...v0.1.1
+[0.1.0]: https://github.com/eiraman/framework/releases/tag/v0.1.0
