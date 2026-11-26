@@ -12,6 +12,19 @@ release states the version of the Eiraman Guide it is written against.
 
 ## [Unreleased]
 
+## [0.2.1] - 2026-11-26
+
+Written against: Eiraman Guide 1.0.0-rc.3.
+Scope: Change Request CR-010 of the method project. Corrections from the independent re-review of 0.2.0
+(REV-CONS-C). Version bump: PATCH, wording only.
+
+### Fixed
+
+- `guidance/VALUES.md`: the two rows on E6 name the rule "E6 · Measurement" and the decisions that are
+  counted (reserved decisions for under-escalation, Do escalations for over-escalation); the example on the
+  time needed counts reserved decisions examined per cycle, which is the denominator of under-escalation (it
+  said Do escalations).
+
 ## [0.2.0] - 2026-11-26
 
 Written against: Eiraman Guide 1.0.0-rc.3.
@@ -75,7 +88,8 @@ Written against: Eiraman Guide 1.0.0-rc.1 (published as "1.0-rc").
   Guide, Extended Framework, Tools and Cases.
 - Licence CC BY-SA 4.0 for texts derived from the Guide; CI compliance checks and Markdown link check.
 
-[Unreleased]: https://github.com/eiraman/framework/compare/v0.2.0...main
+[Unreleased]: https://github.com/eiraman/framework/compare/v0.2.1...main
+[0.2.1]: https://github.com/eiraman/framework/compare/v0.2.0...v0.2.1
 [0.2.0]: https://github.com/eiraman/framework/compare/v0.1.2...v0.2.0
 [0.1.2]: https://github.com/eiraman/framework/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/eiraman/framework/compare/v0.1.0...v0.1.1

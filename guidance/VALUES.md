@@ -21,8 +21,8 @@ row names the rule of the Guide, the suggested value and the decision it comes f
 | §6, K6, type of package | What counts as a type of package when the competitive mechanism is compared with a single executor | One task of the catalogue of a Role Profile | Correction R14, approved by the Human Manager on 26 November 2026; RFC 0003, item 7 |
 | §6, K6, minimum number of packages | How many packages of a type are needed before the comparison counts | At least **10** | As above |
 | §6, K6, minimum margin | The margin over a single executor below which the type returns to a single executor | No suggested value yet | — |
-| §5, E6, sample size | How many decisions the process reviewer examines | No suggested value yet; see the note below | — |
-| §5, E6, confidence level | The confidence level of the interval the process reviewer reports | No suggested value yet; see the note below | — |
+| §5, E6 Measurement, sample size | How many decisions the process reviewer examines: reserved decisions for under-escalation, Do escalations for over-escalation | No suggested value yet; see the note below | — |
+| §5, E6 Measurement, confidence level | The confidence level of the interval the process reviewer reports | No suggested value yet; see the note below | — |
 
 From registry 0.6.0 (Digital Seniority map 0.2.0) the same fallback value and exception are in the map of
 the Role Profile registry (`_seniority/seniority.json`, fields `fallback`, `fallback_indicativo` and
@@ -49,7 +49,7 @@ built, which the Guide does not say either:
 
 The exact numbers come from the binomial distribution; the rounded ones from the approximations 3/n and
 3.7/n. With errors in the sample, or at a higher confidence level, more decisions are needed. As an example,
-a project with three Do escalations per governance cycle and no other reserved decision examined would need
+a project in which three reserved decisions per governance cycle are examined would need
 about ten cycles to show a rate below 10% with the one-sided bound: the evidence for level 1 (Guide §14.1)
 takes that long to collect.
 
