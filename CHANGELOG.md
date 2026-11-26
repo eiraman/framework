@@ -19,6 +19,11 @@ Scope: Change Request CR-010 of the method project (Wave CONS-01), which carries
 part of CR-009 (RFC 0003, "Impact"). Version bump: MINOR, a new page is added (VERSIONING §2.1). The page
 is Guidance: it adds no obligation.
 
+Depends on: tools 0.3.0 and role-profiles 0.6.0 (Digital Seniority map 0.2.0), which carry the same fallback
+value and exception. Order of publication: tools, then role-profiles, then this release. RFC 0003 expected
+this release to give Guidance values for the fallback level, the minimum number of packages of K6 and the
+sample of E6: the first two are given; the sample of E6 is deferred, because no value has been decided.
+
 ### Added
 
 - `guidance/VALUES.md`, draft: the values suggested where the Guide leaves a number to the mandate.
@@ -28,8 +33,9 @@ is Guidance: it adds no obligation.
   - K6 (Guide §6): a type of package is one task of the catalogue of a Role Profile; at least 10 packages
     (correction R14, approved on 26 November 2026; RFC 0003, item 7).
   - No value is suggested for the minimum margin of K6 or for the sample and confidence level of E6: both
-    are listed as open points. For E6 the page gives the arithmetic of the sample size under a stated
-    assumption (95% confidence, no error observed), marked as arithmetic and not as a suggested value.
+    are listed as open points. For E6 the page gives the arithmetic of the sample size under stated
+    assumptions (95% confidence, one-sided bound and two-sided interval, no error observed), marked as
+    arithmetic and not as a suggested value.
 
 ### Changed
 
