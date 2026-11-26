@@ -12,6 +12,29 @@ release states the version of the Eiraman Guide it is written against.
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-11-26
+
+Written against: Eiraman Guide 1.0.0-rc.3.
+Scope: Change Request CR-010 of the method project (Wave CONS-01), which carries out the Extended Framework
+part of CR-009 (RFC 0003, "Impact"). Version bump: MINOR, a new page is added (VERSIONING §2.1). The page
+is Guidance: it adds no obligation.
+
+### Added
+
+- `guidance/VALUES.md`, draft: the values suggested where the Guide leaves a number to the mandate.
+  - Fallback level for tasks outside the catalogue (Guide §7.1): SD3, with the exception of tasks that by
+    their nature belong to the Lead level, which start at SD4 (decision D4 of the Human Manager, 26 November
+    2026; RFC 0003, item 10).
+  - K6 (Guide §6): a type of package is one task of the catalogue of a Role Profile; at least 10 packages
+    (correction R14, approved on 26 November 2026; RFC 0003, item 7).
+  - No value is suggested for the minimum margin of K6 or for the sample and confidence level of E6: both
+    are listed as open points. For E6 the page gives the arithmetic of the sample size under a stated
+    assumption (95% confidence, no error observed), marked as arithmetic and not as a suggested value.
+
+### Changed
+
+- `README.md`: the status says that the first page exists, and the table lists the folder `guidance/`.
+
 ## [0.1.2] - 2026-11-26
 
 Scope: Change Requests CR-005 and CR-006 of the method project. Version bump: PATCH, workflow only;
@@ -46,7 +69,8 @@ Written against: Eiraman Guide 1.0.0-rc.1 (published as "1.0-rc").
   Guide, Extended Framework, Tools and Cases.
 - Licence CC BY-SA 4.0 for texts derived from the Guide; CI compliance checks and Markdown link check.
 
-[Unreleased]: https://github.com/eiraman/framework/compare/v0.1.2...main
+[Unreleased]: https://github.com/eiraman/framework/compare/v0.2.0...main
+[0.2.0]: https://github.com/eiraman/framework/compare/v0.1.2...v0.2.0
 [0.1.2]: https://github.com/eiraman/framework/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/eiraman/framework/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/eiraman/framework/releases/tag/v0.1.0
