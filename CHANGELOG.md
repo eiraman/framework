@@ -12,6 +12,10 @@ release states the version of the Eiraman Guide it is written against.
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-11-26
+
+Written against: Eiraman Guide 1.0.0-rc.1.
+
 ### Added
 
 - This changelog, and the CI workflow `changelog.yml`.
@@ -20,6 +24,7 @@ release states the version of the Eiraman Guide it is written against.
 
 First public release, published as commit `c2eb43c` of `github.com/eiraman/framework` during the
 restricted launch of 25 November 2026. It was not tagged; the version number was assigned afterwards.
+The tag `v0.1.0` will be applied retroactively to that commit.
 Written against: Eiraman Guide 1.0.0-rc.1 (published as "1.0-rc").
 
 ### Added
@@ -30,4 +35,5 @@ Written against: Eiraman Guide 1.0.0-rc.1 (published as "1.0-rc").
 - Licence CC BY-SA 4.0 for texts derived from the Guide; CI compliance checks and Markdown link check.
 
 [Unreleased]: https://github.com/eiraman/framework/compare/c2eb43c3aeba5fcf9fc1009a8c741a8e8a90c67f...main
+[0.1.1]: https://github.com/eiraman/framework/compare/c2eb43c3aeba5fcf9fc1009a8c741a8e8a90c67f...main
 [0.1.0]: https://github.com/eiraman/framework/tree/c2eb43c3aeba5fcf9fc1009a8c741a8e8a90c67f
