@@ -5,13 +5,16 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Guidance values
 
-Written against: Eiraman Guide 1.0.0-rc.5. Status: **draft**, proposed by the Steward until the working
+Written against: Eiraman Guide 1.0.0-rc.6. Status: **draft**, proposed by the Steward until the working
 groups that own these values are formed.
 
 The Guide states no numbers: where a rule needs a value, the mandate of each project sets it. This page
 gives the values the maintainers suggest as a starting point. They are **Guidance**, not obligations: a
 mandate may set different values, and a project conforms to the Guide whatever value its mandate sets. Each
 row names the rule of the Guide, the suggested value and the decision it comes from.
+
+The Guidance for measuring the method on the test bench (baseline, indicators, repetitions, limits) is on its
+own page, [BENCH.md](BENCH.md).
 
 ## Values
 

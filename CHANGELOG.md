@@ -14,9 +14,11 @@ release states the version of the Eiraman Guide it is written against.
 
 ## [0.3.0] - 2026-11-27
 
-Written against: Eiraman Guide 1.0.0-rc.5.
-Scope: Change Request CR-030 of the method project, work package WP-30D. Version bump: MINOR, new Guidance
-values and a new section are added (VERSIONING §2.1). The page stays Guidance: it adds no obligation.
+Written against: Eiraman Guide 1.0.0-rc.6 (candidate), for the whole release.
+Scope: Change Requests CR-030 of the method project, work package WP-30D, and CR-031 (decision D-031-B, the
+Guidance on the test bench). Version bump: MINOR, new Guidance values and a new section are added
+(VERSIONING §2.1). The page stays Guidance: it adds no obligation. The candidate 0.3.0 is not tagged or
+released, so the new page is added to it and the version stays 0.3.0: it is the same MINOR step from 0.2.1.
 
 ### Added
 
@@ -32,13 +34,26 @@ values and a new section are added (VERSIONING §2.1). The page stays Guidance: 
   and the maximum input of each task it is given, as declared in the registry (`motori-locali.json` 0.1.0).
   No qualification threshold is suggested.
 - `README.md`: the local engine is named in the `seniority/` row.
+- `guidance/BENCH.md`, new page, written against Eiraman Guide 1.0.0-rc.6 and status draft: the
+  Guidance that §15, "Measuring the method", assigns to the Extended Framework (decision D-031-B, CR-031).
+  It carries the baseline of today (Opus as high tier, Sonnet as middle tier, fixed instructions, rerun at
+  every change of model), the configurations compared (CB, CE, CE−x, CE′, CB×n), the seven pilots A1-A7 with
+  their state at 27 November 2026, the three cycles, the roles (simulated Human Manager with its public
+  parameters, literal testers, launcher), the indicators and the measure of the cost of realignment (two
+  doors), what counts as the same result, repetitions (5) and confidence intervals, the hypotheses H1-H7 of
+  the first campaign as an example, limits, isolation and contamination rules, the run record, the
+  consequences and the status ("not measured": no campaign completed). It records nine open points, each with its own title. Reserved
+  content of the bench (scenarios, expectations, answers of the simulated Human Manager) is not carried.
+- `README.md` and `guidance/VALUES.md`: link to `guidance/BENCH.md`.
 
 ### Changed
 
-- `guidance/VALUES.md`: "Written against" moves from Guide 1.0.0-rc.3 to 1.0.0-rc.5. The sections the page
-  cites (§5 E6, §6 K6, §7.1 Fallback and Promotion and reduction, §8 cycle review, §14.1 level 1 evidence)
-  were checked against rc.5; the text of E6, K6, Fallback and Promotion and reduction is unchanged since
-  rc.3.
+- `guidance/VALUES.md`: "Written against" moves from Guide 1.0.0-rc.3 to 1.0.0-rc.6. Every section the page
+  cites (§0 Values and Guidance, §5 E6 and Silence never approves a Do, §6 K3, K6 and Security and personal
+  data, §7 Hard blinding, §7.1 Fallback and Promotion and reduction, §8 Wave, Governance cycle, Escalation
+  load and Declared and observed values, §9, §12 Comprehension test, §14 Local engines in the informative
+  mode, §14.1 level 1 evidence) was checked against the text of rc.6 and exists with the same number and
+  label; the text of E6, K6, Fallback and Promotion and reduction is unchanged since rc.3.
 - `guidance/VALUES.md`: the paragraph on the fallback no longer names versions of the registry and of the
   tools; it says that the fixed SD4 of the early registry releases is superseded.
 
