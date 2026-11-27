@@ -12,6 +12,36 @@ release states the version of the Eiraman Guide it is written against.
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-11-27
+
+Written against: Eiraman Guide 1.0.0-rc.5.
+Scope: Change Request CR-030 of the method project, work package WP-30D. Version bump: MINOR, new Guidance
+values and a new section are added (VERSIONING §2.1). The page stays Guidance: it adds no obligation.
+
+### Added
+
+- `guidance/VALUES.md`, "Indicative values of specification 0.3": the values that specification 0.3
+  (historical) gave as "Indicazione" or as figures, each under its own heading with the rule of the Guide
+  that governs it and its source in specification 0.3: deadlines of a Do (3 + 3 working days, 4 hours for an
+  urgent Do), Wave spending thresholds (80% and 100%), weekly cycle, reference of 3 ordinary Do per cycle,
+  about 30 minutes of the Human Manager's attention, number of candidates (K3), calibration sample of E6
+  (about 20 decisions), two attempts before promotion, calibration set of the comprehension test (about 5
+  documents). Two items are listed as not carried (the fixed SD4 fallback, superseded by D4; the different
+  model for security and personal data, now a rule of the Guide, §6).
+- `guidance/VALUES.md`, "Local engine": the local engine of the registry (Gemma 4, status to be qualified)
+  and the maximum input of each task it is given, as declared in the registry (`motori-locali.json` 0.1.0).
+  No qualification threshold is suggested.
+- `README.md`: the local engine is named in the `seniority/` row.
+
+### Changed
+
+- `guidance/VALUES.md`: "Written against" moves from Guide 1.0.0-rc.3 to 1.0.0-rc.5. The sections the page
+  cites (§5 E6, §6 K6, §7.1 Fallback and Promotion and reduction, §8 cycle review, §14.1 level 1 evidence)
+  were checked against rc.5; the text of E6, K6, Fallback and Promotion and reduction is unchanged since
+  rc.3.
+- `guidance/VALUES.md`: the paragraph on the fallback no longer names versions of the registry and of the
+  tools; it says that the fixed SD4 of the early registry releases is superseded.
+
 ## [0.2.1] - 2026-11-26
 
 Written against: Eiraman Guide 1.0.0-rc.3.
@@ -88,7 +118,8 @@ Written against: Eiraman Guide 1.0.0-rc.1 (published as "1.0-rc").
   Guide, Extended Framework, Tools and Cases.
 - Licence CC BY-SA 4.0 for texts derived from the Guide; CI compliance checks and Markdown link check.
 
-[Unreleased]: https://github.com/eiraman/framework/compare/v0.2.1...main
+[Unreleased]: https://github.com/eiraman/framework/compare/v0.3.0...main
+[0.3.0]: https://github.com/eiraman/framework/compare/v0.2.1...v0.3.0
 [0.2.1]: https://github.com/eiraman/framework/compare/v0.2.0...v0.2.1
 [0.2.0]: https://github.com/eiraman/framework/compare/v0.1.2...v0.2.0
 [0.1.2]: https://github.com/eiraman/framework/compare/v0.1.1...v0.1.2
